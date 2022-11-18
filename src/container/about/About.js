@@ -5,7 +5,6 @@ import { client, urlFor } from '../../client.js';
 import { images } from '../../constants';
 import { AppWrap } from '../../wrapper';
 
-
 /*const abouts = [
   {
     title: 'Front-end Development',
@@ -67,4 +66,4 @@ const About = () => {
   );
 };
 
-export default AppWrap (About, 'about');
+export default AppWrap(About, 'about');
