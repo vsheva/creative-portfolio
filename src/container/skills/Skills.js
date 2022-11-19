@@ -15,7 +15,6 @@ const Skills = () => {
     const skillsQuery = '*[_type == "skills"]';
 
     client.fetch(query).then(data => {
-
       setExperiences(data);
     });
 
@@ -45,14 +44,12 @@ const Skills = () => {
           ))}
         </motion.div>
         <div className="app__skills-exp">
-          {/*{console.log("experiences", experiences)}*/}
           {experiences.map(experience => (
             <motion.div className="app__skills-exp-item" key={experience.year}>
               <div className="app__skills-exp-year">
                 <p className="bold-text">{experience.year}</p>
               </div>
               <motion.div className="app__skills-exp-works">
-             {/* {console.log("experience.works", experience.works)}*/}
                 {experience.works.map(work => (
                   <>
                     <motion.div
@@ -85,10 +82,4 @@ const Skills = () => {
   );
 };
 
-export default AppWrap(
-    MotionWrap(Skills, 'app__skills'),
-    'skills',
-    'app__whitebg',
-);
-
-
+export default AppWrap(MotionWrap(Skills, 'app__skills'), 'skills', 'app__whitebg');
