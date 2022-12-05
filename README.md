@@ -1,4 +1,4 @@
-# [Portfolio](https://portfolio-vs.netlify.app/).
+# [Portfolio & Projects](https://portfolio-vs.netlify.app/)
 
 
 
