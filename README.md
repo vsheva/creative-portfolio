@@ -1,4 +1,4 @@
-# [My Creative Portfolio](https://portfolio-vs.netlify.app/)
+# [Creative Portfolio](https://portfolio-vs.netlify.app/)
 
 
 
